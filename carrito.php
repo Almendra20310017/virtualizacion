@@ -21,15 +21,6 @@
 
                 <div class="derecha">
                     <img class="dark-mode-boton" src="build/img/dark-mode.svg">
-                    <nav class="navegacion">
-                        <a href="nosotros.html">Nosotros</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
-                        <a href="registro.html">Registro</a>
-                        <a href="login.html">Ingresar</a>
-                        <a href="productos.html">Productos</a>
-                        <a href="productos.html">carrito</a>
-                    </nav>
                 </div>
                 
             </div> <!--.barra-->
@@ -90,14 +81,6 @@
     </main> 
     <footer class="footer seccion">
         <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-                <a href="registro.html">Registro</a>
-                <a href="login.html">Ingresar</a>
-                <a href="productos.html">Productos</a>
-            </nav>
         </div>
     </footer>
 

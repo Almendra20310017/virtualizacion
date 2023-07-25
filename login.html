@@ -1,51 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JDR Raices</title>
     <link rel="stylesheet" href="build/css/app.css">
 </head>
+
 <body>
-<h1>Login</h1>
-<center>
-<form class="datos" action="login.php" method="POST">
-    
-
-<p>
-    <label for="Correo" class="Correo"></label>
-    <input type="text" name="Correo" required="obligatorio" placeholder="Escribe tu Correo">
-</p>
-<p>
-    <label for="Telefono" class="Contraseña"></label>
-    <input type="password" name="Contraseña" required="obligatorio" placeholder="Escribe tu Contraseña">
-</p>
-
-<button type="submit" name="Registrar" id="Registrar"> <p>Registrar</p></button>
-
-</form>
-</center>
-<header class="header inicio">
-    <div class="contenedor contenido-header">
-        <div class="barra">
-            <a href="index.html">
-                <img src="build/img/logo.svg" alt="Logotipo de Bienes Raices">
+    <header class="header inicio">
+        <div class="contenedor contenido-header">
+            <a href="index.html" class="logo">
+                <img src="build/img/logo.png" alt="Perritos Ivan logo" />
             </a>
+            <div class="barra">
+                <a href="index.html">
+                    <img src="build/img/logo.svg" alt="Logotipo de Bienes Raices">
+                </a>
+    
+                <div class="mobile-menu">
+                    <img src="build/img/barras.svg" alt="icono menu responsive">
+                </div>
+    
+                <div class="derecha">
+                    <img class="dark-mode-boton" src="build/img/dark-mode.svg">
+    </header>
+    <h1>Login</h1>
+    <center>
+        <form class="datos" action="login.php" method="POST">
 
-            <div class="mobile-menu">
-                <img src="build/img/barras.svg" alt="icono menu responsive">
-            </div>
 
-            <div class="derecha">
-                <img class="dark-mode-boton" src="build/img/dark-mode.svg">
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="anuncios.php">Anuncios</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contacto.html">Contacto</a>
-                    <a href="registro.html">Registro</a>
-                    <a href="productos.html">Productos</a>
-                    <a href="carrito.php">Carrito</a>
-                </nav>
-            </div>
+            <p>
+                <label for="Correo" class="Correo"></label>
+                <input type="text" name="Correo" required="obligatorio" placeholder="Escribe tu Correo">
+            </p>
+            <p>
+                <label for="Telefono" class="Contraseña"></label>
+                <input type="password" name="Contraseña" required="obligatorio" placeholder="Escribe tu Contraseña">
+            </p>
+
+            <button type="submit" name="Registrar" id="Registrar">
+                <p>Registrar</p>
+            </button>
+
+        </form>
+    </center>
 </body>
