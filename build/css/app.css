@@ -18,6 +18,7 @@ html {
 
 body {
 	margin: 0;
+	background-color: #4d6e32;
 }
 
 main {
@@ -497,7 +498,6 @@ h4 {
 
 .navegacion a {
 	color: var(--blanco);
-	margin-left: 20%;
 	text-decoration: none;
 	font-size: 2.2rem;
 	display: block;
